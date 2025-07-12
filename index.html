@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Minecraft Macbeth world website</title>
+  <link rel="stylesheet" href = "styles.css">
+
+  <style>
+     /* 1. Base reset / fonts */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* 2. Navbar wrapper */
+    .navbar {
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 10px;
+      background: #333;
+      position: sticky;   /* sticks to the top while scrolling */
+      top: 0;
+      z-index: 1000;
+    }
+
+    /* 3. Horizontal list inside the bar */
+    .navbar ul {
+      list-style: none;   /* no bullets */
+      margin: 0;
+      padding: 0;
+      display: flex;      /* lay children left‑to‑right */
+      justify-content: space-around; /* even spacing */
+    }
+
+    /* 4. Each list item (optional if you just need spacing) */
+    .navbar li { margin: 0; 
+	             font-size: 25px}
+
+    /* 5. Links */
+    .navbar a {
+      display: block;
+      padding: 14px 20px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      transition: background 0.25s;
+    }
+
+    .navbar a:hover,
+    .navbar a:focus { background: #575757; }
+
+    .navbar a.active { background: #0072ff; }
+
+    /* 6. Page content wrapper for breathing‑space */
+    .content { padding: 20px; }
+  </style>
+</head>
+
+<body style= "background-color:#7c848f">
+
+  <!-- ==== NAVIGATION BAR ==== -->
+  <nav class="navbar">
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="page1.html">Assistance</a></li>
+      <li><a href="page2.html">Builds</a></li>
+      <li><a href="page3.html">Themes</a></li>
+    </ul>
+  </nav>
+
+  <!-- ==== MAIN PAGE CONTENT ==== -->
+  
+  <div class="content">
+  
+<table style="width:100%; border-collapse:collapse;">
+    <tr>
+		<h1 style="text-align:center; font-size:50px;"><strong><u>Home</u></strong></h1>
+	</tr>
+	<tr>
+		<p>
+		  This Minecraft world is a visual recreation of the Macbeth world, with each area being decorated to represent a specific theme. Instead of telling the story,
+		  the world uses visual symbolism and quotes to show themes and give analysis. In the world, we explored themes such as fierceness, ambitiousness, foolishness, and
+		  traitorousness. Each specific area is designed to illustrate a theme; the location of where each theme is represented is based 
+		  off events in the play. Along with this, signs are scattered around each themed area with carefully selected quotations which show the chosen theme. 
+		</p>
+		<p>
+		  By combining physical representations with original lines from the play, the design helps to visualize the play and its events. The goal is to encourage viewers to see
+		  what Shakespeare’s themes look like in visual and interactive experiences, and to help them understand without explicit narration. 
+		</p>
+	</tr>
+	<tr>
+		<td style="text-align:left; width:33%;">
+			<img src="PHOTO-2025-07-05-16-45-51.JPG"
+			     alt="poverty image" style="max-width:100%; height:auto;"/>
+		</td>
+		<td style="text-align:center; width:33%;">
+		    <img src="PHOTO-2025-07-05-16-45-52.JPG"
+			     alt="poverty image" style="max-width:100%; height:auto;">
+		</td>
+		<td style="text-align:right; width:33%;">
+		    <img src="PHOTO-2025-07-05-16-45-52 (2).JPG"
+			     alt="poverty image" style="max-width:100%; height:auto;"/>
+		</td>
+	</tr>
+</table>
+   
+  </div>
+
+</body>
+</html>

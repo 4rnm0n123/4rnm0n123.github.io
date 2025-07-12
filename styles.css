@@ -1,0 +1,35 @@
+
+li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #527674;
+  color: white;
+}
+
+li a:active {
+  background-color: #527674;
+  color: #0e6878;
+}
+
+    /* 2. Navbar wrapper */
+    .navbar {
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 10px;
+      background: #333;
+      position: sticky;   /* sticks to the top while scrolling */
+      top: 0;
+      z-index: 1000;
+    }
+	
+p {
+  font-size:25px;
+  font-family:Bradley Hand;
+}
+  
+ 

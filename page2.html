@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Minecraft Macbeth world website</title>
+  <link rel="stylesheet" href = "styles.css">
+
+  <style>
+    /* 1. Base reset / fonts */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* 2. Navbar wrapper */
+    .navbar {
+      background: #333;
+      position: sticky;   /* sticks to the top while scrolling */
+      top: 0;
+      z-index: 1000;
+    }
+
+    /* 3. Horizontal list inside the bar */
+    .navbar ul {
+      list-style: none;   /* no bullets */
+      margin: 0;
+      padding: 0;
+      display: flex;      /* lay children left‑to‑right */
+      justify-content: space-around; /* even spacing */
+    }
+
+    /* 4. Each list item (optional if you just need spacing) */
+    .navbar li { margin: 0; 
+	             font-size: 25px}
+
+    /* 5. Links */
+    .navbar a {
+      display: block;
+      padding: 14px 20px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      transition: background 0.25s;
+    }
+
+    .navbar a:hover,
+    .navbar a:focus { background: #575757; }
+
+    .navbar a.active { background: #0072ff; }
+
+    /* 6. Page content wrapper for breathing‑space */
+    .content { padding: 20px; }
+  </style>
+</head>
+
+<body style="background-color:#ba666b;">
+
+  <!-- ==== NAVIGATION BAR ==== -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="page1.html">Assistance</a></li>
+      <li><a class="active" href="page2.html">Builds</a></li>
+      <li><a href="page3.html">Themes</a></li>
+    </ul>
+  </nav>
+
+<!-- ==== MAIN PAGE CONTENT ==== -->
+<div class="content">
+  <h1 style="text-align:center; font-size:50px;"><strong><u>Builds</u></strong></h1>
+
+  <!-- Two‑column table -->
+  <table style="width:100%; border-collapse:separate; border-spacing:0 15px;">
+  
+    <tr>
+      <!-- LEFT column: heading + text -->
+      <td style="width:60%; text-align:left; vertical-align:top;">
+        <h1 style="margin:0 0 0.5rem 0;">Castle overview</h1>
+        <p style="margin:0;">
+          This is a full image overview of Dunsinane castle
+        </p>
+      </td>
+
+      <!-- RIGHT column: image flush right -->
+      <td style="width:40%; text-align:right; vertical-align:top;">
+        <img
+          src="Castle overview.JPG"
+          alt="poverty image"
+          style="max-width:100%; height:auto;"
+        >
+      </td>
+    </tr>
+	
+    <tr>
+      <!-- LEFT column: heading + text -->
+      <td style="width:60%; text-align:left; vertical-align:top;">
+        <h1 style="margin:0 0 0.5rem 0;">Battlefield</h1>
+        <p style="margin:0;">
+          This is an overview of the battlefield where Macbeth fought at the start of the play
+        </p>
+      </td>
+
+      <!-- RIGHT column: image flush right -->
+      <td style="width:40%; text-align:right; vertical-align:top;">
+        <img
+          src="Battlefield.JPG"
+          alt="poverty image"
+          style="max-width:100%; height:auto;"
+        >
+      </td>
+    </tr>
+	
+    <tr>
+      <!-- LEFT column: heading + text -->
+      <td style="width:60%; text-align:left; vertical-align:top;">
+        <h1 style="margin:0 0 0.5rem 0;">Tower Defenses</h1>
+        <p style="margin:0;">
+          This is an overview of the castle's upper tower defenses.
+        </p>
+      </td>
+
+      <!-- RIGHT column: image flush right -->
+      <td style="width:40%; text-align:right; vertical-align:top;">
+        <img
+          src="Tower defenses.JPG"
+          alt="poverty image"
+          style="max-width:100%; height:auto;"
+        >
+      </td>
+    </tr>
+	
+	
+    <tr>
+      <!-- LEFT column: heading + text -->
+      <td style="width:60%; text-align:left; vertical-align:top;">
+        <h1 style="margin:0 0 0.5rem 0;">Birnam wood</h1>
+        <p style="margin:0;">
+          This is an overview of Birnam wood- where Macduff's army approaches from at the end of the play.
+        </p>
+      </td>
+
+      <!-- RIGHT column: image flush right -->
+      <td style="width:40%; text-align:right; vertical-align:top;">
+        <img
+          src="Birnam wood.JPG"
+          alt="poverty image"
+          style="max-width:100%; height:auto;"
+        >
+      </td>
+    </tr>
+	
+	
+	
+    <tr>
+      <!-- LEFT column: heading + text -->
+      <td style="width:60%; text-align:left; vertical-align:top;">
+        <h1 style="margin:0 0 0.5rem 0;">Throne room</h1>
+        <p style="margin:0;">
+          This is the throne room.
+        </p>
+      </td>
+
+      <!-- RIGHT column: image flush right -->
+      <td style="width:40%; text-align:right; vertical-align:top;">
+        <img
+          src="Throne room.JPG"
+          alt="poverty image"
+          style="max-width:100%; height:auto;"
+        >
+      </td>
+    </tr>
+	
+	
+    <tr>
+      <!-- LEFT column: heading + text -->
+      <td style="width:60%; text-align:left; vertical-align:top;">
+        <h1 style="margin:0 0 0.5rem 0;">Duncan's room</h1>
+        <p style="margin:0;">
+          This is Duncan's room- where Macbeth traitorously murders Duncan.
+        </p>
+      </td>
+
+      <!-- RIGHT column: image flush right -->
+      <td style="width:40%; text-align:right; vertical-align:top;">
+        <img
+          src="Throne room.JPG"
+          alt="poverty image"
+          style="max-width:100%; height:auto;"
+        >
+      </td>
+    </tr>
+  </table>
+  
+  
+</div>
+
+</body>
+</html>

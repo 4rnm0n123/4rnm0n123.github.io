@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Minecraft Macbeth world website</title>
+  <link rel="stylesheet" href = "styles.css">
+
+  <style>
+    /* 1. Base reset / fonts */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* 2. Navbar wrapper */
+    .navbar {
+      background: #333;
+      position: sticky;   /* sticks to the top while scrolling */
+      top: 0;
+      z-index: 1000;
+    }
+
+    /* 3. Horizontal list inside the bar */
+    .navbar ul {
+      list-style: none;   /* no bullets */
+      margin: 0;
+      padding: 0;
+      display: flex;      /* lay children left‑to‑right */
+      justify-content: space-around; /* even spacing */
+    }
+
+    /* 4. Each list item (optional if you just need spacing) */
+    .navbar li { margin: 0; 
+	             font-size: 25px}
+
+    /* 5. Links */
+    .navbar a {
+      display: block;
+      padding: 14px 20px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      transition: background 0.25s;
+    }
+
+    .navbar a:hover,
+    .navbar a:focus { background: #575757; }
+
+    .navbar a.active { background: #0072ff; }
+
+    /* 6. Page content wrapper for breathing‑space */
+    .content { padding: 20px; }
+  </style>
+</head>
+
+<body style="background-color:#ba666b;">
+
+  <!-- ==== NAVIGATION BAR ==== -->
+    <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="page1.html">Assistance</a></li>
+      <li><a href="page2.html">Builds</a></li>
+      <li><a href="page3.html">Themes</a></li>
+    </ul>
+  </nav>
+  
+  <div class="content">
+  
+<table style="width:100%; border-collapse:collapse;">
+    <tr>
+		<h1 style="text-align:center; font-size:50px;"><strong><u>Aid in understanding of the text</u></strong></h1>
+	</tr>
+	<tr>
+		<p>
+		  This Minecraft world helps viewers understand Macbeth by turning the play’s key themes into visual scenes that are easy to explore. Instead of only reading about ambition,
+		  paranoia, or fierceness players can walk through areas that show these ideas using Minecraft builds, decorations, and quotes from the play. This makes the meaning
+		  behind Shakespeare’s words clearer and easier to relate to.
+		</p>
+	</tr>
+	<tr>
+		<td style="text-align:left; width:33%;">
+			<img src="PHOTO-2025-07-05-16-45-52 (7).JPG"
+			     alt="poverty image" style="max-width:100%; height:auto;"/>
+		</td>
+		<td style="text-align:center; width:33%;">
+		    <img src="PHOTO-2025-07-05-16-45-52 (8).JPG"
+			     alt="poverty image" style="max-width:100%; height:auto;">
+		</td>
+		<td style="text-align:right; width:33%;">
+		    <img src="PHOTO-2025-07-05-16-45-52 (9).JPG"
+			     alt="poverty image" style="max-width:100%; height:auto;"/>
+		</td>
+	</tr>
+	  <tr>
+		<td colspan="3">
+		  <p>
+			This makes the themes easier to understand and connect to the story. The quotes help explain what’s happening in each area, and the design choices help show how the
+			characters feel. It’s a creative way to make Shakespeare more clear and engaging.
+		  </p>
+		</td>
+	  </tr>
+</table>
+   
+  </div>
+
+</body>
+</html>
